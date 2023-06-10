@@ -322,4 +322,4 @@ def mainFunc(contour, mousePoint):
     firstPoint = oCtr[firstPointIdx]
     lastPoint = oCtr[lastPointIdx]
 
-    return [firstPointIdx, lastPointIdx, ctrCentre]
+    return [firstPointIdx, lastPointIdx, ctrCentre, mouseDir]
